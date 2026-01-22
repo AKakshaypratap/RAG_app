@@ -10,13 +10,13 @@ A high-performance Retrieval-Augmented Generation (RAG) pipeline built with Goog
 - -> Package Manager: uv
 
 ### Prerequisites
-Python 3.10+
-A google gemini api key
+- Python 3.10+
+- A google gemini api key
 
 ### Installation & setup
 1) clone the repository:
-git clone https://github.com/Akakshay/RAG_app](https://github.com/AKakshaypratap/RAG_app)
-cd RAG
+- git clone https://github.com/Akakshay/RAG_app](https://github.com/AKakshaypratap/RAG_app)
+- cd RAG
 
 2) Create .env file
 GOOGLE_API_KEY=your_api_key_here
