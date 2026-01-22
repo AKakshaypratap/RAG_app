@@ -1,6 +1,8 @@
 <!-- Gemini-Powered RAG with LlamaIndex & FAISS -->
 A high-performance Retrieval-Augmented Generation (RAG) pipeline built with Google's Gemini API and LlamaIndex. This application allows you to "chat" with your local PDF documents using state-of-the-art embeddings and lightning-fast vector search.
 
+- Core idea: The system should answer user questions only from the provided documents, not from the model’s general knowledge.
+
 ### Tech Stack
 - -> LLM: Google Gemini 1.5 Flash
 - -> Embeddings: Google `text-embedding-004`
@@ -29,3 +31,12 @@ uv run file_loader.py
 
 5) Run the application
 streamlit run app.py
+
+### WORKING STEPS
+- Document Ingestion Layer
+- Chunking Strategy
+- Embedding Generation
+- Vector Database
+- User Query Processing: Prompt Engineering
+- LLM Inference Layer: Streamlit UI interface
+
