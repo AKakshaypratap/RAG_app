@@ -1,0 +1,18 @@
+[project]
+name = "rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "faiss-cpu>=1.13.2",
+    "google-generativeai>=0.8.6",
+    "llama-index>=0.14.12",
+    "llama-index-embeddings-gemini>=0.4.1",
+    "llama-index-embeddings-google-genai>=0.3.1",
+    "llama-index-llms-gemini>=0.6.1",
+    "llama-index-vector-stores-faiss>=0.5.2",
+    "pypdf>=6.6.0",
+    "python-dotenv>=1.2.1",
+    "streamlit>=1.53.0",
+]
