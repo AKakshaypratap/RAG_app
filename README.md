@@ -15,7 +15,7 @@ A high-performance Retrieval-Augmented Generation (RAG) pipeline built with Goog
 
 ### Installation & setup
 1) clone the repository:
-- git clone https://github.com/Akakshay/RAG_app](https://github.com/AKakshaypratap/RAG_app)
+- git clone https://github.com/AKakshaypratap/RAG_app.git
 - cd RAG
 
 2) Create .env file
